@@ -78,11 +78,15 @@ text-align: center;
     width: 500px;
     height:300px;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 .container2:hover .image .text1{
     opacity: 1;
 
     
+}
+.container3{
+    margin-top: 50px;
 }
 .container2:hover .middle{
     opacity: 0.4;
@@ -188,15 +192,16 @@ text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .parallax{
-    background-image: url("movie.png");
+    background-image: url("/img/car.jpg");
 
-    
+
   /* Set a specific height */
-  min-height: 500px; 
+  min-height: 300px; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 0.4;
 }
