@@ -1,0 +1,89 @@
+.list li{
+    list-style: none;
+    display: inline-block;
+    letter-spacing: 4px;
+    text-align: center;
+    
+}
+.list i{
+    color: rgb(6, 16, 153);
+    width: 20px;
+    margin-left: -8px;
+    margin-bottom: 5px;
+}
+.navbar{
+    background-image:linear-gradient(to left bottom ,rgba(0, 0, 0, 0.3),rgba(191, 146, 112, 0.2));
+       
+ }
+    .footer{
+        background-color: rgb(48, 71, 94);
+        font-size: smaller;
+        /* position: relative; */
+         bottom: 0px; 
+        left: 0px;
+        width: 100%;
+        margin-top: 50px;
+        color: white;
+    
+    }
+
+.img1{
+width:450px;
+object-fit: contain;
+margin-top: 20px;
+
+}
+
+.txt1{
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-weight: bold;
+    color: white;
+}
+.div1{
+    width: 50px;
+
+}
+.parallax{
+    background-image: url("/img/road.jpg");
+    margin-bottom: 60px;
+    position: relative;
+
+  /* Set a specific height */
+  min-height: 900px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+}
+.one:hover{
+    background-color: #30475E;
+    font-size: large;
+    width: 75px;
+    height: 40px;
+    background-image:linear-gradient(to left bottom ,rgba(0, 0, 0, 0.3),rgba(214, 27, 90, 0.2));
+
+}
+.one:visited{
+    background-color: #30475E;
+    background-image:linear-gradient(to left bottom ,rgba(0, 0, 0, 0.3),rgba(214, 27, 90, 0.2));
+}
+.first-col h4{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    text-align: center;
+    }
+    .first-col h5{
+        font-size: 13px;
+        text-align: center;
+    }
+    .col-4 li{
+        list-style: none;
+    }

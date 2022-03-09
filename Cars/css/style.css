@@ -27,7 +27,7 @@ header{
      bottom: 0px; 
     left: 0px;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 50px;
     color: white;
 
 }
@@ -68,11 +68,20 @@ text-align: center;
 }
 
 .middle{
-    transition: .5s ease;
-    opacity: 1;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
+opacity: 0;
+transition: .5s ease;
+background-color: #008CBA;
+}
+.txt{
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 .container2{
     width: 500px;
@@ -89,18 +98,10 @@ text-align: center;
     margin-top: 50px;
 }
 .container2:hover .middle{
-    opacity: 0.4;
+    opacity: 1;
+    width: 100%;
+    left: 0;
 }
-.text1 {
-     background-color: #04AA6D;
-    color: white;
-    font-size: 16px;
-    padding: 0;
-    margin-bottom: 500px;
-    margin-left: 450px;
-
-   
-  }
 
   .base img {
     width: 700px;
@@ -192,16 +193,74 @@ text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .parallax{
-    background-image: url("/img/car.jpg");
-
+    background-image: url("/img/road.jpg");
+    margin-bottom: 60px;
+position: relative;
 
   /* Set a specific height */
-  min-height: 300px; 
+  min-height: 200px; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.4;
+  opacity: 0.5;
 }
+.txt2{
+    background-color: white;
+  color: black;
+  font-size: 100px; /* Responsive font size */
+  font-weight: bold;
+  margin: 0 auto; /* Center the text container */
+  padding: 10px;
+  width: 30%;
+  text-align: center; /* Center text */
+  position: absolute; /* Position text */
+  top: 50%; /* Position text in the middle */
+  left: 50%; /* Position text in the middle */
+  transform: translate(-50%, -50%); /* Position text in the middle */
+  mix-blend-mode: screen; /* This makes the cutout text possible */
+  font-weight: 80px;
+}
+.container4 {
+    position: relative;
+    width: 50%;
+    float: left;
+  }
+  
+  .imp {
+    display: block;
+    width: 700px;
+    height: auto;
+    margin:auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #62757a;
+  }
+  
+  .container4:hover .overlay {
+    opacity: 0.6;
+  }
+  
+  .aab {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }

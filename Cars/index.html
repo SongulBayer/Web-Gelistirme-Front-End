@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,17 +31,17 @@
 
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a  href="index.html" class="nav-link active one" >
+                    <a  href="#Home" class="nav-link active one" >
                         Home
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="about.html" class="nav-link active one">
+                    <a href="#about" class="nav-link active one">
                         About
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="cars.html" class="nav-link active one">
+                    <a href="#cars" class="nav-link active one">
                         Cars
                     </a>
                 </li>
@@ -50,14 +50,19 @@
                         Contact
                     </a>
                 </li>
+                <li class="nav-item">
+                  <a href="contact.html" class="nav-link active one">
+                      Team
+                  </a>
+              </li>
             </ul>
         </div>
 
         </div>
     </nav>
 </header>
-
-    <div id="carouselExampleIndicators" class="carousel slide base cover" data-bs-ride="carousel">
+<div id="Home">
+  <div id="carouselExampleIndicators" class="carousel slide base cover" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -83,9 +88,12 @@
           <span class="visually-hidden">Next</span> 
         </button>
       </div>
+</div>
+    
 
   <main>
-    <div><p class="baslik" style="text-align:center;">FEATURED SERVİCE</p></div>
+    <div id="about"> 
+       <div><p class="baslik" style="text-align:center;">FEATURED SERVİCE</p></div>
     
 
     
@@ -113,27 +121,32 @@
         
 
       </div>
+    </div></div>
+  
+
+    <div class="parallax ">
+      <div class="txt2"><h5> Lorem, ipsum dolor. </h5></div>
     </div>
-
-    <div class="parallax"></div>
-      <div class="container2" style="float: left; margin-right: 5px; margin-left :220px; top: 50px;"  >
-        <a class="middle" href="contact.html"> <img class="main-img1" src="img/four.jpg" style="width: 500px; height: 400px;"  class="mt-2 mb-5 image" alt="">
-      <div class="middle">
-      <div class="text1">cars </div>
-     </div>
-     </a>
-     
-      </div>
-
-      <div class="container3" style=" margin-right: 230px; margin-left :220px; top: 10px;" >
-        <a  class="middle" href=""><img class="main-img2" src="img/five.jpg" style="width: 500px; height: 400px;"  class="mt-2 " alt="">
-        <div class="middle">
-
-        </div>
-        </a>
-      </div>
-
-
+  
+    <div id="cars">
+      <a href="sports.html">
+  <div class="container4">
+    <img class="imp" src="img/four.jpg" alt="Avatar" >
+    <div class="overlay">
+      <div class="aab"> Sports Cars</div>
+    </div>
+  </div>
+  </a>
+<a href="classic.html">
+  <div class="container4 ">
+   <img  class="imp" src="img/five.jpg" alt="Avatar" >
+    <div class="overlay">
+    <div class="aab">Classic Cars</div>
+    </div>
+  </div>
+</a>
+  </div>
+<div style="visibility: hidden;" >asasd</div>
 
   </main>
 <footer class="footer">
