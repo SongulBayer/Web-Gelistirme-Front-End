@@ -14,9 +14,9 @@
 .navbar{
     background-image:linear-gradient(to left bottom ,rgba(0, 0, 0, 0.3),rgba(191, 146, 112, 0.2));
        
- }
-    .footer{
-        background-color: rgb(48, 71, 94);
+}
+.footer{
+        background-color: rgb(98, 101, 104);
         font-size: smaller;
         /* position: relative; */
          bottom: 0px; 
@@ -24,19 +24,20 @@
         width: 100%;
         margin-top: 50px;
         color: white;
-    
     }
 
 .img1{
 width:450px;
 object-fit: contain;
-margin-top: 20px;
-
+margin-top: 100px;
+border-radius: 20px;
+margin-bottom: 70px;
+margin-left: 50px;
 }
 
 .txt1{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-right: 100px;
     margin-left: 100px;
     font-weight: bold;
@@ -52,7 +53,7 @@ margin-top: 20px;
     position: relative;
 
   /* Set a specific height */
-  min-height: 900px; 
+  min-height: 800px; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;

@@ -1,0 +1,113 @@
+
+.one:hover{
+    background-color: #30475E;
+    font-size: large;
+    width: 75px;
+    height: 40px;
+    background-image:linear-gradient(to left bottom ,rgba(0, 0, 0, 0.3),rgba(214, 27, 90, 0.2));
+
+}
+.one:visited{
+    background-color: #30475E;
+    background-image:linear-gradient(to left bottom ,rgba(0, 0, 0, 0.3),rgba(214, 27, 90, 0.2));
+}
+.first-col h4{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    text-align: center;
+    }
+    .first-col h5{
+        font-size: 13px;
+        text-align: center;
+    }
+    .col-4 li{
+        list-style: none;
+    }
+    .list li{
+        list-style: none;
+        display: inline-block;
+        letter-spacing: 4px;
+        text-align: center;
+        
+    }
+    .list i{
+        color: rgb(6, 16, 153);
+        width: 20px;
+        margin-left: -8px;
+        margin-bottom: 5px;
+    }
+    .navbar{
+        background-image:linear-gradient(to left bottom ,rgba(0, 0, 0, 0.3),rgba(191, 146, 112, 0.2));
+           
+    }
+    .footer{
+            background-color: rgb(98, 101, 104);
+            font-size: smaller;
+            /* position: relative; */
+             bottom: 0px; 
+            left: 0px;
+            width: 100%;
+            margin-top: 750px;
+            color: white;
+        }
+        .contact{
+            background-color: white;
+            color: black;
+            font-size: 100px; /* Responsive font size */
+            font-weight: bold;
+            margin: 0 auto; /* Center the text container */
+            padding: 10px;
+            width: 30%;
+            text-align: center; /* Center text */
+            /* Position text */
+            top: 50%; /* Position text in the middle */
+            left: 50%; /* Position text in the middle */
+            margin-right: 500px;
+            /* margin-top: 500px; */
+        }
+        body{
+            background-color: #25274d;
+        }
+        .contact{
+            padding: 4%;
+            height: 400px;
+        }
+        .col-md-3{
+            background: #ff9b00;
+            padding: 4%;
+            border-top-left-radius: 0.5rem;
+            border-bottom-left-radius: 0.5rem;
+            background-image: url(/img/road\ \(2\).jpg);
+        }
+        .contact-info{
+            margin-top:10%;
+        }
+        .contact-info img{
+            margin-bottom: 15%;
+        }
+        .contact-info h2{
+            margin-bottom: 10%;
+        }
+        .col-md-9{
+            background: #fff;
+            padding: 3%;
+            border-top-right-radius: 0.5rem;
+            border-bottom-right-radius: 0.5rem;
+        }
+        .contact-form label{
+            font-weight:600;
+        }
+        .contact-form button{
+            background: #25274d;
+            color: #fff;
+            font-weight: 600;
+            width: 25%;
+        }
+        .contact-form button:focus{
+            box-shadow:none;
+        }
+        body{
+            background-color: #30475E;
+        }
