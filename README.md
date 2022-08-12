@@ -1,6 +1,6 @@
 # Web-Gelistirme-Front-End
  
-```
+```ruby
  public class Bank
     {
      
